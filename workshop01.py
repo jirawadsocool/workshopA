@@ -8,7 +8,7 @@ def calulateprice():
     return realprice
 
 def show_price() :
-    print(f"สินค้าราคาคือ {productname} {calulateprice()}บาท")
+    print(f"สินค้าราคาคือ : {productname} {calulateprice()}บาท")
 
 productname, product_price = product_details()
 
